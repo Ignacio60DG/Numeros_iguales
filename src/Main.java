@@ -12,6 +12,8 @@ public class Main {
 
         int inumero2 = sc.nextInt();
 
+        sc.close();
+
         System.out.println(inumero1 == inumero2 ? "Son iguales chaval" : "No son iguales que bien");
     }
 }
